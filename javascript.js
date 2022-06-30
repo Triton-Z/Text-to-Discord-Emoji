@@ -26,7 +26,7 @@ function calculate(){
         }
     }
         result = translatedText.substring(1, translatedText.length);
-        document.getElementById("result").innerHTML = ("Result:" + translatedText.substring(1, translatedText.length));
+        document.getElementById("result").innerHTML = ("Result - " + translatedText.substring(1, translatedText.length));
 }
 
 
